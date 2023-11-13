@@ -44,7 +44,6 @@ body {
 @media only screen and (max-width: 600px) {
     .grid-conteiner {
         width: 100%;
-        background-color: lightblue;
         display: flex;
         flex-direction: column;
         /* column-gap: 15px; */
