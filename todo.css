@@ -1,5 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 
@@ -41,15 +42,41 @@ body {
     cursor: pointer;
 }
 
-@media only screen and (max-width: 600px) {
+
+
+/* Add your default styles here */
+
+/* Media query for screens with a maximum width of 767px (typical for mobile devices) */
+
+
+
+@media only screen and (max-width: 767px) {
+    html {
+        scrollbar-width: none;
+    }
+
+    main {
+        width: 90vh;
+        overflow-x: hidden;
+
+    }
+
+    .title-header {
+        text-align: start;
+    }
+
     .grid-conteiner {
-        width: 100%;
+        max-width: 83%;
         display: flex;
         flex-direction: column;
-        /* column-gap: 15px; */
-        /* row-gap: 15px; */
-        margin-top: 15px;
         align-items: stretch;
         justify-content: center;
     }
+
+
+
+
+
+
+
 }
