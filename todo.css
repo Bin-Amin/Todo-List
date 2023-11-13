@@ -40,3 +40,17 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 600px) {
+    .grid-conteiner {
+        width: 100%;
+        background-color: lightblue;
+        display: flex;
+        flex-direction: column;
+        /* column-gap: 15px; */
+        /* row-gap: 15px; */
+        margin-top: 15px;
+        align-items: stretch;
+        justify-content: center;
+    }
+}
