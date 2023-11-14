@@ -51,22 +51,26 @@ body {
 
 
 @media only screen and (max-width: 767px) {
-    html {
-        scrollbar-width: none;
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+
     }
 
-    main {
-        width: 90vh;
-        overflow-x: hidden;
 
-    }
 
     .title-header {
         text-align: start;
     }
 
     .grid-conteiner {
-        max-width: 83%;
+        max-width: 97%;
         display: flex;
         flex-direction: column;
         align-items: stretch;
